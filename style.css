@@ -1,3 +1,16 @@
 h1{
     color: red
 }
+.botonIg{
+    background-image: linear-gradient(gray, orange);
+    width: 120px;
+    height: 120px;
+    transition: all 2s;
+
+}
+
+.botonIg:hover{
+background-image: linear-gradient(aqua, yellow);
+transform:scale(2) ;
+}
+
