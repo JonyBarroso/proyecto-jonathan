@@ -6,10 +6,10 @@ h1{
     width: 120px;
     height: 120px;
     transition: all 2s;
-
 }
 
 .botonIg:hover{
+    /* Listo para mergear*/
 background-image: linear-gradient(aqua, yellow);
 transform:scale(2) ;
 }
