@@ -1,16 +1,89 @@
-h1{
-    color: red
-}
-.botonIg{
-    background-image: linear-gradient(gray, orange);
-    width: 120px;
-    height: 120px;
-    transition: all 2s;
+
+ *{
+    margin: 0;
+    padding: 0;
+    
+} 
+
+
+.html{
+    scroll-behavior: smooth;
 }
 
-.botonIg:hover{
-    /* Listo para mergear*/
-background-image: linear-gradient(aqua, yellow);
-transform:scale(2) ;
+body{
+    background-color: rgb(70, 36, 43);
 }
+
+.header{
+    background-color: pink;
+    position: sticky;
+    top: 0;
+    height: 150px;
+}
+.titulo{
+    text-align: center;
+    font-family: fantasy;
+    
+}
+.titulo__menu{
+    font-family: fantasy;
+   
+    
+
+}
+.cabecera__imagen{
+    width: 80px;
+    height: 80px;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__menu li {
+    list-style: none;
+    padding: 2%;
+}
+.header__menu li a {
+    text-decoration: none;
+    color: black;
+}
+.header__submenu{
+    display: none;
+    position: absolute;
+    left: 0%;
+    background-color: rgb(248, 226, 229);
+    
+}
+.header__submenu li {
+    padding: 15px;
+}
+.header__menu--submenu{
+    position: relative;
+   
+}
+.header__menu--submenu:hover .header__submenu {
+    display: block;
+
+}
+.productos__section{
+    margin-top: -50px;
+    padding-top: 50px;
+}
+footer {
+    background-color: lightcoral;
+    padding: 1em 0 ;
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    text-decoration: none;
+} 
+@media (max-width: 768px){
+    .header{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+}
+
 
