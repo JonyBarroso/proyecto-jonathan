@@ -86,4 +86,15 @@ footer {
 
 }
 
+.botoninstagram{
+    background-image: linear-gradient(gray, blue);
+    width: 120px;
+    height: 120px;
+    transition: all 2s;
+
+}
+.botoninstagram:hover{
+    background-image: linear-gradient(yellow, red);
+    transform: scale(2);
+}
 
