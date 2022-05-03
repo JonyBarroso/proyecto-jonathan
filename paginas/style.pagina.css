@@ -1,5 +1,5 @@
 .header{
-    background-color: green;
+    background-color: rgb(238, 74, 189);
 }
 
 .logo{
@@ -17,3 +17,20 @@
 .carousel-item img{
     height: 300px;
 }
+
+h1{
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.nosotros{
+    position: sticky;
+}
+.ubic{
+    text-align: start;
+    
+}
+
+

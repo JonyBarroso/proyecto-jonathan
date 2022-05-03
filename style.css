@@ -1,5 +1,6 @@
 .header{
     background-color: rgb(238, 74, 189);
+    position: sticky;
 }
 
 .logo{
