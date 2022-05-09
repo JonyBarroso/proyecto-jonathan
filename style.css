@@ -1,6 +1,21 @@
 header{
     background-color: rgb(238, 74, 189);
-    
+    background-color: rgb(244, 132, 164);
+
+}
+.cuerpo{
+    margin: 0;
+    background-color: tomato;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+
+
+}
+.texto{
+margin-top: 50px;
+margin-bottom: 50px;
+
 }
 body{
     background-color: rgb(241, 175, 186);
@@ -52,6 +67,4 @@ h1{
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 45px;
-
-    
 }
