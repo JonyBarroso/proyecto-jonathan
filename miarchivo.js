@@ -351,9 +351,9 @@ nombre.addEventListener("keydown", (e) => {
 
  */
 
-/* const listaMates = document.getElementById("listado");
+ const listaMates = document.getElementById("listado");
 
-fetch("./")
+fetch("./data.json")
 .then(response => response.json())
 .then(productos => {
   productos.forEach(producto => {
@@ -369,4 +369,4 @@ fetch("./")
     lista.append(li);
   });
 
-}); */
+}); 
