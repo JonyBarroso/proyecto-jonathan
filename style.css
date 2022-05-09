@@ -1,7 +1,26 @@
 header{
     background-color: rgb(238, 74, 189);
-    position: sticky;
+    
 }
+body{
+    background-color: rgb(241, 175, 186);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.ubic{
+    text-align: left;
+}
+h1{
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
 
 .logo{
     width: 150px;
@@ -22,11 +41,11 @@ header{
 
 
 .piedepagina{
-background-color: lightcoral;
-padding: 1em 0;
-text-align: center;
-margin-top: auto;
-
+    background-color: lightcoral;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+    
 }
 .video{
     text-align: center;
