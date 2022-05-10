@@ -1,0 +1,19 @@
+.nav-link{
+    color: $color-secundario;
+}
+.header{
+    color: gray;
+    
+    .navbar{
+        font-size: medium;
+        .container-fluid{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            .navbar-nav{
+                color: chocolate;
+                .nav-item{
+                    font-style: initial;
+                }
+            }
+        }
+    }
+}
