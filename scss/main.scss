@@ -1,7 +1,5 @@
 @import './base/variables';
-@import './componentes/footer';
-@import './componentes/nosotros';
-@import './componentes/header';
+@import './componentes/componentes';
 
 .header{
     background-color: rgb(244, 132, 164);
@@ -10,7 +8,7 @@
 }
 .cuerpo{
     margin: 0;
-    background-color: tomato;
+    background-color: map-get($colores, color-segundo);
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;

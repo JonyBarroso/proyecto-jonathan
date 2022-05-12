@@ -5,12 +5,13 @@
     color: gray;
     
     .navbar{
-        font-size: medium;
+        font-size: map-get($tamanio-tipografia, titulos);
         .container-fluid{
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             .navbar-nav{
-                color: chocolate;
+                color: map-get($colores, color-primero );
                 .nav-item{
+                    @include footer(lightcoral);
                     font-style: initial;
                 }
             }
