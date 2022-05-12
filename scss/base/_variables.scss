@@ -1,2 +1,23 @@
 $color-principal: #e556;
 $color-secundario: gray;
+
+
+$tamanio-tipografia:(
+    titulos: 30px,
+    subtitulos: 25px,
+    paraffos: 26px,
+);
+
+$colores: (
+color-primero: chocolate,
+color-segundo: tomato,
+color-tercero: #f484a4,
+);
+
+@mixin footer ($bg-color) {
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: $bg-color;
+    font-size: medium;
+}
+

@@ -1,79 +1,66 @@
 .piedepagina {
   background-color: lightcoral;
-  color: rgba(238, 85, 85, 0.4);
+  color: #e556;
   padding: 1em;
   text-align: center;
   text-decoration: none;
-  height: auto;
-}
+  height: auto; }
 
 .texto {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: medium;
-  color: gray;
-}
+  color: gray; }
 
 .nav-link {
-  color: gray;
-}
+  color: gray; }
 
 .header {
-  color: gray;
-}
-.header .navbar {
-  font-size: medium;
-}
-.header .navbar .container-fluid {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.header .navbar .container-fluid .navbar-nav {
-  color: chocolate;
-}
-.header .navbar .container-fluid .navbar-nav .nav-item {
-  font-style: initial;
-}
+  color: gray; }
+  .header .navbar {
+    font-size: 30px; }
+    .header .navbar .container-fluid {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      .header .navbar .container-fluid .navbar-nav {
+        color: chocolate; }
+        .header .navbar .container-fluid .navbar-nav .nav-item {
+          width: fit-content;
+          padding: 5px 10px;
+          background-color: lightcoral;
+          font-size: medium;
+          font-style: initial; }
 
 .header {
-  background-color: rgb(244, 132, 164);
-}
+  background-color: #f484a4; }
 
 .cuerpo {
   margin: 0;
   background-color: tomato;
   display: grid;
   min-height: 100vh;
-  grid-template-rows: auto 1fr auto;
-}
+  grid-template-rows: auto 1fr auto; }
 
 .texto {
   margin-top: 50px;
-  margin-bottom: 50px;
-}
+  margin-bottom: 50px; }
 
 .logo {
-  width: 150px;
-}
+  width: 150px; }
 
 .nav-link {
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 .carousel-item {
-  height: 300px;
-}
+  height: 300px; }
 
 .carousel-item img {
-  height: 300px;
-}
+  height: 300px; }
 
 .nosotros {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 .video {
   text-align: center;
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 45px;
-}/*# sourceMappingURL=main.css.map */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px; }
