@@ -14,10 +14,17 @@ color-segundo: tomato,
 color-tercero: #f484a4,
 );
 
+%video{
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+};
+
 @mixin footer ($bg-color) {
     width: fit-content;
     padding: 5px 10px;
     background-color: $bg-color;
     font-size: medium;
-}
+};
 
