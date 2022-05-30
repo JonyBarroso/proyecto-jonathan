@@ -1,48 +1,5 @@
-@import './base/variables';
-@import './componentes/componentes';
-
-.header{
-    background-color: rgb(244, 132, 164);
-
-
-}
-.cuerpo{
-    margin: 0;
-    background-color: map-get($colores, color-segundo);
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-
-
-}
-.texto{
-margin-top: 50px;
-margin-bottom: 50px;
-
-}
-
-.logo{
-    width: 150px;
-    
-}
-.nav-link{
-    font-size: 30px;
-}
-
-.carousel-item{
-    height: 300px;
-}
-
-.carousel-item img{
-    height: 300px;
-}
-
-
-
-.nosotros{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.video{
-   @extend video; 
-}
+@import 'base/variables';
+@import 'componentes/footer';
+@import 'componentes/nosotros';
+@import 'componentes/header';
+@import 'componentes/index';
