@@ -29,6 +29,12 @@
   font-family: "Spline Sans Mono", monospace;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .nav-link {
   color: gray;
 }
@@ -83,7 +89,13 @@
   height: 300px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .inicio {
   font-family: "Spline Sans Mono", monospace;
   text-align: center;
-}
+}/*# sourceMappingURL=main.css.map */
