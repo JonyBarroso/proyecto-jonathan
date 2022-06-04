@@ -19,14 +19,16 @@
 
 .texto {
   font-family: "Spline Sans Mono", monospace;
-  font-size: larger;
+  font-size: 18px;
   color: white;
   text-align: justify;
+  padding: 20px;
 }
 
 .nosotros {
   text-align: center;
   font-family: "Spline Sans Mono", monospace;
+  margin: 10px;
 }
 
 * {
@@ -98,4 +100,11 @@
 .inicio {
   font-family: "Spline Sans Mono", monospace;
   text-align: center;
+  font-size: 18px;
+}
+
+#titulo {
+  font-family: "Spline Sans Mono", monospace;
+  text-align: center;
+  font-size: 25px;
 }/*# sourceMappingURL=main.css.map */
