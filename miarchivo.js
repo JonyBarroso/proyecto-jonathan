@@ -6,7 +6,7 @@ while(usuario !=  "jonathan.athena"){
  usuario = prompt("ingrese su usuario athena")   
 }*/
 
-alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+/* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
 function loguearte(){
 
@@ -56,3 +56,31 @@ function compra(){
     }
 
 compra()    
+ */
+
+
+class Mate{
+    constructor(nombre,precio){
+        this.nombre = nombre;
+        this.precio = precio;
+        this.vendido = false;
+    }
+    
+    vender(){
+        this.vendido = true;
+    }
+}
+
+let  productos = [];
+    productos.push(new Mate("Mate Geometrico", 900))
+    productos.push(new Mate("Mate Perita Fino", 850))
+    productos.push(new Mate("Mate Perita", 850))
+    productos.push(new Mate("Cazuela", 850))
+
+        for (const item of productos){
+        if(item.nombre === "Cazuela"){
+            item.vender()
+        }
+}
+        console.log(productos);
+    
