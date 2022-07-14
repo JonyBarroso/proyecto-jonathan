@@ -6,7 +6,7 @@ while(usuario !=  "jonathan.athena"){
  usuario = prompt("ingrese su usuario athena")   
 }*/
 
-/* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+/*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
 function loguearte(){
 
@@ -56,10 +56,10 @@ function compra(){
     }
 
 compra()    
+ 
  */
 
-
-class Mate{
+/* class Mate{
     constructor(nombre,precio){
         this.nombre = nombre;
         this.precio = precio;
@@ -83,4 +83,55 @@ let  productos = [];
         }
 }
         console.log(productos);
+     */
+
+
+
+
+    alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+
+        function loguearte(){
+
+        let nombre = prompt("Ingrese su nombre");
+
+        let email = prompt("Ingrese su mail");
+
+        let contraseña = prompt("Ingrese su contraseña");
+
+        if(nombre && email && contraseña){
+        alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")
+        }else if (!nombre || !email || !contraseña){
+        alert("ud ha ingresado una forma incorrecta alguno de los datos")
+        }
     
+}  compra = prompt("¿Desea realizar una compra?")
+
+    
+        loguearte()
+    
+
+    const productos = [
+        {id:1, nombre: "Mate Geometrico", precio: 1100},
+        {id:2, nombre: "Mate Perita Fino", precio: 1000},
+        {id:3, nombre: "Mate Perita Comun", precio: 1000},
+        {id:4, nombre: "Cazuela Grande", precio: 1100},
+        {id:5, nombre: "Cazuela Mediana", precio: 1000},
+        {id:6, nombre: "Cazuela chica", precio: 900},
+        {id:7, nombre : "Mate Liso sin pintar", precio: 600}
+
+    ]
+    const carrito = [];
+
+        let mates
+        let entrada = prompt("Ingrese el nombre del producto que sea comprar o escriba ESC para salir:\nMATE GEOMETRICO\nMATE PERITA FINO\nMATE PERITA COMUN\nCAZUELA GRANDE\nCAZUELA MEDIANA\nCAZUELA CHICA\nMATE LISO SIN PINTAR").toUpperCase()
+
+    while (entrada != "ESC"){
+        mates = mates.find(item => item.nombre = entrada);
+        carrito.push(mates);
+        entrada = prompt("Ingrese el nombre del producto que sea comprar o escriba ESC para salir:\nMATE GEOMETRICO\nMATE PERITA FINO\nMATE PERITA COMUN\nCAZUELA GRANDE\nCAZUELA MEDIANA\nCAZUELA CHICA\nMATE LISO SIN PINTAR").toUpperCase()
+   
+    }
+
+    alert("El producto seleccionado ha sido añadido a su carrito")
+
+    console.log(carrito);
