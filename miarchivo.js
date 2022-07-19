@@ -58,8 +58,8 @@ function compra(){
 compra()    
  
  */
-
-/* class Mate{
+/* 
+    class Mate{
     constructor(nombre,precio){
         this.nombre = nombre;
         this.precio = precio;
@@ -83,12 +83,12 @@ let  productos = [];
         }
 }
         console.log(productos);
-     */
+     
+ */
 
 
 
-
-    alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+   /*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
         function loguearte(){
 
@@ -118,6 +118,7 @@ let  productos = [];
         {id:5, nombre: "Cazuela Mediana", precio: 1000},
         {id:6, nombre: "Cazuela chica", precio: 900},
         {id:7, nombre : "Mate Liso sin pintar", precio: 600}
+        
 
     ]
     const carrito = [];
@@ -134,4 +135,22 @@ let  productos = [];
 
     alert("El producto seleccionado ha sido añadido a su carrito")
 
-    console.log(carrito);
+    console.log(carrito);  */ 
+
+    let contenedor = document.getElementById("proyecto");
+    let mates = [
+        {id: 1, nombre: "Mate Geometrico", precio: 1100},
+        {id: 2, nombre: "Mate Perita Fino", precio: 1000},
+        {id: 3, nombre: "Mate Perita Comun", precio: 1000},
+        {id: 4, nombre: "Cazuela", precio: 1100},
+    ];
+
+    for(const producto of mates){
+        let li = document.createElement("li");
+        li.innerHTML = `<h2>ID: ${producto.id}</h2>
+                        <p>Nombre: ${producto.nombre}</p>
+                        <b>$ ${producto.precio}</p>
+                        <img src= ${producto.img}>
+                        `;
+        contenedor.append(li);               
+    }
