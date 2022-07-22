@@ -154,3 +154,34 @@ let  productos = [];
                         `;
         contenedor.append(li);               
     }
+
+
+/* let boton = document.getElementById("btnPrincipal")
+let saludo = document.getElementById("saludo")
+
+boton.addEventListener("mousedown", () =>{
+    saludo.className = "amarillo";
+});
+boton.addEventListener("mouseup", () =>{
+    saludo.className = "azul";
+});
+boton.addEventListener("mouseout", () =>{
+    saludo.className = "verde";
+}); */
+
+let saludo = document.getElementById("saludo")
+let nombre = document.getElementById("nombre")
+
+nombre.addEventListener("keydown", (e) => {
+    if(e.key === "a"){
+    saludo.className = "amarillo";
+}else if (e.key === "e"){
+    saludo.className = "azul";
+}else{
+    saludo.className = "verde";
+}
+});
+
+
+
+
