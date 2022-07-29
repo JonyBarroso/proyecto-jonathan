@@ -6,23 +6,46 @@ while(usuario !=  "jonathan.athena"){
  usuario = prompt("ingrese su usuario athena")   
 }*/
 
-/*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+ /* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
 function loguearte(){
 
-    let nombre = prompt("Ingrese su nombre");
+    let nombre;
 
-    let email = prompt("Ingrese su mail");
+    let nombreStorage = sessionStorage.getItem("nombre");
 
-    let contraseña = prompt("Ingrese su contraseña");
+    if(nombreStorage){
+        nombre = nombreStorage;
+        let mensaje = `Bienvenido/a ${nombre}`;
+        alert(mensaje)
+    }else{
+        nombre = prompt("ingrese su nombre");
+        sessionStorage.setItem("nombre", nombre);
 
-    if(nombre && email && contraseña){
-        alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")
-    }else if (!nombre || !email || !contraseña){
-        alert("ud ha ingresado una forma incorrecta alguno de los datos")
+        let email = prompt("ingrese su mail");
+        let contraseña = prompt("ingrese su contraseña");
+
+        alert("Felicitaciones, haz creado tu cuenta con exito");
+        alert(`Bienvenido/a ${nombre}`)
+    
     }
     
+
+const login = new Usuario(nombre, email, contraseña);
+
+usuarios.push(login);
+
+const mensaje = `Cuenta registrada con exito: \nNombre: ${login.nombre} \nEmail: ${login.email} \nContraseña: ${login.contraseña}`;
+alert(mensaje);
 }
+
+loguearte()
+ 
+
+
+
+ 
+/*  
 
 
 alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte")
@@ -137,6 +160,77 @@ let  productos = [];
 
     console.log(carrito);  */ 
 
+   /*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+
+function loguearte(){
+
+    let nombre;
+
+    let nombreStorage = sessionStorage.getItem("nombre");
+
+    if(nombreStorage){
+        nombre = nombreStorage;
+        let mensaje = `Bienvenido/a ${nombre}`;
+        alert(mensaje)
+    }else{
+        nombre = prompt("ingrese su nombre");
+        sessionStorage.setItem("nombre", nombre);
+
+        let email = prompt("ingrese su mail");
+        let contraseña = prompt("ingrese su contraseña");
+
+        alert("Felicitaciones, haz creado tu cuenta con exito");
+        alert(`Bienvenido/a ${nombre}`)
+    
+    }
+    
+
+const login = new Usuario(nombre, email, contraseña);
+
+usuarios.push(login);
+
+const mensaje = `Cuenta registrada con exito: \nNombre: ${login.nombre} \nEmail: ${login.email} \nContraseña: ${login.contraseña}`;
+alert(mensaje);
+}
+ 
+loguearte()
+*/
+
+alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte");
+function loguearte(){
+
+    let nombre;
+    let nombreStorage = sessionStorage.getItem("nombre");
+
+    if(nombreStorage){
+    let nombre = nombreStorage;
+    let mensaje = `Bienvenid@ ${nombre}`;
+     alert(mensaje);
+    }else{
+        nombre = prompt("ingrese su nombre");
+        sessionStorage.setItem("nombre", nombre);
+
+        let email = prompt("ingrese su mail");
+        let contraseña = prompt("ingrese su contraseña");
+
+        alert("Felicitaciones, haz creado tu cuenta con exito");
+        alert(`Bienvenido/a ${nombre}`)
+    
+   
+
+
+boton.addEventListener("click", () => console.log("click"));
+setTimeout(() => {
+   sessionStorage.clear(); 
+});
+
+}
+}
+loguearte();
+
+
+
+
     let contenedor = document.getElementById("proyecto");
     let mates = [
         {id: 1, nombre: "Mate Geometrico", precio: 1100},
@@ -155,7 +249,7 @@ let  productos = [];
         contenedor.append(li);               
     }
 
-
+ 
 /* let boton = document.getElementById("btnPrincipal")
 let saludo = document.getElementById("saludo")
 
@@ -169,7 +263,7 @@ boton.addEventListener("mouseout", () =>{
     saludo.className = "verde";
 }); */
 
-let saludo = document.getElementById("saludo")
+/* let saludo = document.getElementById("saludo")
 let nombre = document.getElementById("nombre")
 
 nombre.addEventListener("keydown", (e) => {
@@ -183,5 +277,5 @@ nombre.addEventListener("keydown", (e) => {
 });
 
 
-
+ */
 
