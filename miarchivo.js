@@ -42,22 +42,37 @@ alert(mensaje);
 loguearte()
  
 
-
+ */
 
  
-/*  
+
 
 
 alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte")
+function loguearte(){
 
-do{
-    loguearte()
-    if(confirm("¿Desea realizar una compra?"))
-    compra()
- }
- while(confirm(`presione ACEPTAR para loguear un usuario o CANCELAR para salir`))
+    let nombre = prompt("Ingrese su nombre");
 
- 
+    let email = prompt("Ingrese su mail");
+
+    let contraseña = prompt("Ingrese su contraseña");
+    const logueo = () => {
+
+    logueo === ("nombre", "email", "contraseña") ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")) : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
+
+
+    
+}
+}
+    
+loguearte()
+
+const carrito = [];
+
+let mates
+let entrada = prompt("Ingrese el nombre del producto que sea comprar o escriba ESC para salir:\nMATE GEOMETRICO\nMATE PERITA FINO\nMATE PERITA COMUN\nCAZUELA GRANDE\nCAZUELA MEDIANA\nCAZUELA CHICA\nMATE LISO SIN PINTAR").toUpperCase()
+
+  
 
 function compra(){
 
@@ -80,8 +95,8 @@ function compra(){
 
 compra()    
  
- */
-/* 
+/* function vender(){
+ 
     class Mate{
     constructor(nombre,precio){
         this.nombre = nombre;
@@ -106,9 +121,11 @@ let  productos = [];
         }
 }
         console.log(productos);
+}
+vender()
      
- */
 
+  */
 
 
    /*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
@@ -158,9 +175,9 @@ let  productos = [];
 
     alert("El producto seleccionado ha sido añadido a su carrito")
 
-    console.log(carrito);  */ 
-
-   /*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+    console.log(carrito);   */
+/* 
+    alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
 function loguearte(){
 
@@ -194,9 +211,9 @@ alert(mensaje);
 }
  
 loguearte()
-*/
+ */
 
-alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte");
+/*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte");
 function loguearte(){
 
     let nombre;
@@ -219,10 +236,10 @@ function loguearte(){
    
 
 
-boton.addEventListener("click", () => console.log("click"));
+ boton.addEventListener("click", () => console.log("click"));
 setTimeout(() => {
    sessionStorage.clear(); 
-});
+}); 
 
 }
 }
@@ -248,7 +265,7 @@ loguearte();
                         `;
         contenedor.append(li);               
     }
-
+  */
  
 /* let boton = document.getElementById("btnPrincipal")
 let saludo = document.getElementById("saludo")
