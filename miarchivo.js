@@ -51,14 +51,23 @@ loguearte()
 alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte")
 function loguearte(){
 
-    let nombre = prompt("Ingrese su nombre");
+    let usuario = {
+    nombre: prompt("Ingrese su nombre"),
+    email: prompt("Ingrese su email"),
+    contrasenia: prompt("Ingrese su contrasenia"),
+    }
 
-    let email = prompt("Ingrese su mail");
+    /* let nombre = usuario.nombre;
+    let email = usuario.email;
+    let contrasenia = usuario.contrasenia; */
 
-    let contraseña = prompt("Ingrese su contraseña");
-    const logueo = () => {
+    let {nombre, email, contrasenia} = usuarioNuevo;
 
-    logueo === ("nombre", "email", "contraseña") ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")) : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
+
+
+    const usuarioNuevo = () => {
+
+    usuario === ("nombre", "email", "contrasenia") ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")) : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
 
 
     
