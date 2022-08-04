@@ -48,41 +48,66 @@ loguearte()
 
 
 
-alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte")
+/* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte")
 function loguearte(){
 
     let usuario = {
     nombre: prompt("Ingrese su nombre"),
     email: prompt("Ingrese su email"),
     contrasenia: prompt("Ingrese su contrasenia"),
-    }
+    } */
 
-    /* let nombre = usuario.nombre;
+  /*    let nombre = usuario.nombre;
     let email = usuario.email;
-    let contrasenia = usuario.contrasenia; */
+    let contrasenia = usuario.contrasenia;  */
 
-    let {nombre, email, contrasenia} = usuarioNuevo;
+    /* let {nombre, email, contrasenia} = usuarioNuevo;
+    console.log(nombre);
+    console.log(email);
+    console.log(contrasenia);
+ */
 
-
-
+/* 
     const usuarioNuevo = () => {
 
-    usuario === ("nombre", "email", "contrasenia") ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")) : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
+    usuarioNuevo === ("nombre", "email", "contrasenia") ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")) : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
 
 
     
 }
 }
     
-loguearte()
+loguearte() */
 
-const carrito = [];
+
+/* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+
+function loguearte(){
+
+let nombre = prompt("Ingrese su nombre");
+
+let email = prompt("Ingrese su mail");
+
+let contraseña = prompt("Ingrese su contraseña");
+
+if(nombre && email && contraseña){
+alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")
+}else if (!nombre || !email || !contraseña){
+alert("ud ha ingresado una forma incorrecta alguno de los datos")
+}
+
+}  compra = prompt("¿Desea realizar una compra?")
+
+
+loguearte() */
+
+/* const carrito = [];
 
 let mates
 let entrada = prompt("Ingrese el nombre del producto que sea comprar o escriba ESC para salir:\nMATE GEOMETRICO\nMATE PERITA FINO\nMATE PERITA COMUN\nCAZUELA GRANDE\nCAZUELA MEDIANA\nCAZUELA CHICA\nMATE LISO SIN PINTAR").toUpperCase()
-
+ */
   
-
+/* 
 function compra(){
 
     let compra = prompt("Que deseas comprar") 
@@ -102,7 +127,7 @@ function compra(){
 
     }
 
-compra()    
+compra()     */
  
 /* function vender(){
  
@@ -137,7 +162,7 @@ vender()
   */
 
 
-   /*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+      alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
         function loguearte(){
 
@@ -149,15 +174,23 @@ vender()
 
         if(nombre && email && contraseña){
         alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'se ha creado su usuario ',
+            showConfirmButton: false,
+            timer: 5000
+          })
         }else if (!nombre || !email || !contraseña){
         alert("ud ha ingresado una forma incorrecta alguno de los datos")
         }
     
-}  compra = prompt("¿Desea realizar una compra?")
+}  
 
-    
-        loguearte()
-    
+    loguearte()
+
+    function compra(){
+        compra = prompt("¿Desea realizar una compra?")
 
     const productos = [
         {id:1, nombre: "Mate Geometrico", precio: 1100},
@@ -184,7 +217,11 @@ vender()
 
     alert("El producto seleccionado ha sido añadido a su carrito")
 
-    console.log(carrito);   */
+    console.log(carrito);   
+    
+    }
+
+    compra ();
 /* 
     alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
@@ -222,7 +259,7 @@ alert(mensaje);
 loguearte()
  */
 
-/*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte");
+ /* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte");
 function loguearte(){
 
     let nombre;
@@ -241,19 +278,24 @@ function loguearte(){
 
         alert("Felicitaciones, haz creado tu cuenta con exito");
         alert(`Bienvenido/a ${nombre}`)
-    
+
+
    
 
 
- boton.addEventListener("click", () => console.log("click"));
-setTimeout(() => {
+
+    }
+}
+
+loguearte();
+
+boton.addEventListener("btnPrincipal", () => console.log("click"));
+(() => {
    sessionStorage.clear(); 
 }); 
 
-}
-}
-loguearte();
 
+    
 
 
 
@@ -263,18 +305,20 @@ loguearte();
         {id: 2, nombre: "Mate Perita Fino", precio: 1000},
         {id: 3, nombre: "Mate Perita Comun", precio: 1000},
         {id: 4, nombre: "Cazuela", precio: 1100},
+           
     ];
+
 
     for(const producto of mates){
         let li = document.createElement("li");
         li.innerHTML = `<h2>ID: ${producto.id}</h2>
                         <p>Nombre: ${producto.nombre}</p>
                         <b>$ ${producto.precio}</p>
-                        <img src= ${producto.img}>
                         `;
         contenedor.append(li);               
-    }
-  */
+    } */
+   
+  
  
 /* let boton = document.getElementById("btnPrincipal")
 let saludo = document.getElementById("saludo")
