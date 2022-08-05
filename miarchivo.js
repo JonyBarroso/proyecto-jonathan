@@ -48,26 +48,25 @@ loguearte()
 
 
 
-/* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte")
+/*  alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte")
 function loguearte(){
 
     let usuario = {
     nombre: prompt("Ingrese su nombre"),
     email: prompt("Ingrese su email"),
     contrasenia: prompt("Ingrese su contrasenia"),
-    } */
-
+    } 
+ */
   /*    let nombre = usuario.nombre;
     let email = usuario.email;
     let contrasenia = usuario.contrasenia;  */
 
-    /* let {nombre, email, contrasenia} = usuarioNuevo;
-    console.log(nombre);
-    console.log(email);
-    console.log(contrasenia);
- */
+  /*   let {nombre, email, contrasenia} = usuarioNuevo;
+    console.log(`${nombre},${email},${contrasenia}`);
 
-/* 
+ 
+
+
     const usuarioNuevo = () => {
 
     usuarioNuevo === ("nombre", "email", "contrasenia") ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")) : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
@@ -77,8 +76,8 @@ function loguearte(){
 }
 }
     
-loguearte() */
-
+loguearte() 
+ */
 
 /* alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
@@ -107,10 +106,16 @@ let mates
 let entrada = prompt("Ingrese el nombre del producto que sea comprar o escriba ESC para salir:\nMATE GEOMETRICO\nMATE PERITA FINO\nMATE PERITA COMUN\nCAZUELA GRANDE\nCAZUELA MEDIANA\nCAZUELA CHICA\nMATE LISO SIN PINTAR").toUpperCase()
  */
   
-/* 
+
+/*
+const carrito = [];
+
+let mates
+let entrada = prompt("Ingrese el nombre del producto que sea comprar o escriba ESC para salir:\nMATE GEOMETRICO\nMATE PERITA FINO\nMATE PERITA COMUN\nCAZUELA GRANDE\nCAZUELA MEDIANA\nCAZUELA CHICA\nMATE LISO SIN PINTAR").toUpperCase()
+
 function compra(){
 
-    let compra = prompt("Que deseas comprar") 
+     let compra = prompt("Que deseas comprar")  
     if(compra === "geometrico"){
         alert("ud eligio geometrico")
         alert("fue añadido a su carrito");
@@ -127,9 +132,9 @@ function compra(){
 
     }
 
-compra()     */
+compra()    
  
-/* function vender(){
+/* /function vender(){
  
     class Mate{
     constructor(nombre,precio){
@@ -159,7 +164,7 @@ let  productos = [];
 vender()
      
 
-  */
+   */
 
 
       alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
@@ -172,18 +177,15 @@ vender()
 
         let contraseña = prompt("Ingrese su contraseña");
 
-        if(nombre && email && contraseña){
-        alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido")
+        (nombre === nombre) && (email === email) && (contraseña === contraseña) ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido"))  : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
+        /* alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido") */
         Swal.fire({
             position: 'top-end',
             icon: 'success',
             title: 'se ha creado su usuario ',
             showConfirmButton: false,
-            timer: 5000
+            timer: 9000
           })
-        }else if (!nombre || !email || !contraseña){
-        alert("ud ha ingresado una forma incorrecta alguno de los datos")
-        }
     
 }  
 
@@ -221,7 +223,7 @@ vender()
     
     }
 
-    compra ();
+    compra (); 
 /* 
     alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
