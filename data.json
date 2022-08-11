@@ -1,0 +1,8 @@
+[
+    { "nombre" : " Mate Geometrico " , "precio" : 1100  , "id" : 1 },
+    { "nombre" : " Mate Perita " , "precio" : 1000 , "id" : 2 },
+    { "nombre" : " Mate Perita fino " , "precio" : 1000 , "id" : 3 },
+    { "nombre" : " Cazuela Grande " , "precio" : 1300 , "id" : 4 },
+    { "nombre" : " Cazuela Mediana " , "precio" : 1100 , "id" : 5 },
+    { "nombre" : " Cazuela Chica " , "precio" : 1000 , "id" : 6 }
+  ]

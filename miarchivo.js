@@ -167,7 +167,7 @@ vender()
    */
 
 
-      alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
+   /*    alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
         function loguearte(){
 
@@ -178,7 +178,7 @@ vender()
         let contraseña = prompt("Ingrese su contraseña");
 
         (nombre === nombre) && (email === email) && (contraseña === contraseña) ? console.log(alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido"))  : console.log(alert("ud ha ingresado una forma incorrecta alguno de los datos"));
-        /* alert("Felicitaciones! Haz creado con exito tu cuenta, Bienvenido") */
+       
         Swal.fire({
             position: 'top-end',
             icon: 'success',
@@ -189,9 +189,9 @@ vender()
     
 }  
 
-    loguearte()
+    loguearte() */
 
-    function compra(){
+   /*  function compra(){
         compra = prompt("¿Desea realizar una compra?")
 
     const productos = [
@@ -223,7 +223,7 @@ vender()
     
     }
 
-    compra (); 
+    compra ();  */
 /* 
     alert("Bienvenido a Athena.Deco, para realizar una compra debes loguearte") 
 
@@ -351,3 +351,22 @@ nombre.addEventListener("keydown", (e) => {
 
  */
 
+/* const listaMates = document.getElementById("listado");
+
+fetch("./")
+.then(response => response.json())
+.then(productos => {
+  productos.forEach(producto => {
+    const li = documento.createElement("li");
+    li.innerHTML = `
+      <h4>${producto.nombre}</h4>
+      <p>${producto.precio}</p>
+      <p>Código: ${producto.id}</p>
+      <hr />
+    `;
+
+
+    lista.append(li);
+  });
+
+}); */
